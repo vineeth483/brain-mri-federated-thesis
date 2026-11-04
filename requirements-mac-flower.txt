@@ -1,0 +1,6 @@
+# Python 3.11 on Apple Silicon; use a project virtual environment.
+# The protobuf cap keeps Flower compatible with TensorFlow 2.18.
+tensorflow==2.18.0
+tensorflow-metal==1.2.0
+flwr[simulation]==1.41.0
+protobuf>=5.28,<6
