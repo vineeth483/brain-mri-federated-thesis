@@ -1,0 +1,26 @@
+{
+  "architecture": "MobileNetV2 with ImageNet weights",
+  "training_images": 5600,
+  "validation_split": 0.2,
+  "seed": 42,
+  "candidates": [
+    {
+      "phase": "head",
+      "checkpoint": "outputs/trained_mobilenetv2/head_best.keras",
+      "validation_loss": 0.32252031564712524,
+      "validation_accuracy": 0.8785714507102966
+    },
+    {
+      "phase": "fine_tune",
+      "checkpoint": "outputs/trained_mobilenetv2/fine_tune_best.keras",
+      "validation_loss": 0.21289972960948944,
+      "validation_accuracy": 0.9223214387893677
+    }
+  ],
+  "selected_phase": "fine_tune",
+  "selected_validation_loss": 0.21289972960948944,
+  "selected_validation_accuracy": 0.9223214387893677,
+  "final_model": "outputs/trained_mobilenetv2/final.keras",
+  "test_data_used": false,
+  "training_device": "Apple M1 GPU via TensorFlow Metal"
+}
