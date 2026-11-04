@@ -1,0 +1,77 @@
+{
+  "model": "outputs/trained_efficientnet_b0/final.keras",
+  "test_data": "data/Test",
+  "num_images": 1600,
+  "class_names": [
+    "glioma",
+    "meningioma",
+    "notumor",
+    "pituitary"
+  ],
+  "accuracy": 0.82,
+  "classification_report": {
+    "glioma": {
+      "precision": 0.8782894736842105,
+      "recall": 0.6675,
+      "f1-score": 0.7585227272727273,
+      "support": 400.0
+    },
+    "meningioma": {
+      "precision": 0.8069620253164557,
+      "recall": 0.6375,
+      "f1-score": 0.7122905027932961,
+      "support": 400.0
+    },
+    "notumor": {
+      "precision": 0.8934240362811792,
+      "recall": 0.985,
+      "f1-score": 0.9369797859690844,
+      "support": 400.0
+    },
+    "pituitary": {
+      "precision": 0.7346938775510204,
+      "recall": 0.99,
+      "f1-score": 0.8434504792332268,
+      "support": 400.0
+    },
+    "accuracy": 0.82,
+    "macro avg": {
+      "precision": 0.8283423532082164,
+      "recall": 0.8200000000000001,
+      "f1-score": 0.8128108738170836,
+      "support": 1600.0
+    },
+    "weighted avg": {
+      "precision": 0.8283423532082165,
+      "recall": 0.82,
+      "f1-score": 0.8128108738170837,
+      "support": 1600.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      267,
+      55,
+      26,
+      52
+    ],
+    [
+      33,
+      255,
+      21,
+      91
+    ],
+    [
+      2,
+      4,
+      394,
+      0
+    ],
+    [
+      2,
+      2,
+      0,
+      396
+    ]
+  ]
+}
