@@ -1,0 +1,149 @@
+{
+  "scenario": "iid",
+  "architecture": "MobileNetV2 ImageNet backbone with four-class head",
+  "strategy": "FedAvg",
+  "seed": 42,
+  "batch_size": 32,
+  "local_epochs_per_round": 1,
+  "head_rounds": 8,
+  "fine_tune_rounds": 12,
+  "rounds_completed": 20,
+  "clients_per_round": 4,
+  "assigned_images_per_client": {
+    "client_1": 1089,
+    "client_2": 1088,
+    "client_3": 1088,
+    "client_4": 1086
+  },
+  "training_images_per_round": 4351,
+  "validation_images": 1078,
+  "test_images_used": false,
+  "initial_weights_sha256": "7110088ec3b249a82d4470324e012c85474e361ef2550363b8c9e6ea3fd3aa08",
+  "final_weights_sha256": "d8b560fb18fa23de0369f076f9c83ebd692774f8d1cc181c74fd4a4ea9b9f22b",
+  "best_validation_round": 19,
+  "best_validation_loss": 0.33221468329429626,
+  "best_validation_accuracy": 0.8803339600563049,
+  "checkpoint": "outputs/flower_iid_full/best.weights.h5",
+  "client_images_by_round": {
+    "1": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "2": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "3": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "4": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "5": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "6": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "7": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "8": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "9": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "10": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "11": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "12": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "13": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "14": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "15": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "16": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "17": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "18": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "19": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    },
+    "20": {
+      "client_1": 1089,
+      "client_2": 1088,
+      "client_3": 1088,
+      "client_4": 1086
+    }
+  }
+}

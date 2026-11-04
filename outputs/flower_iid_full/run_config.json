@@ -1,0 +1,15 @@
+{
+  "scenario": "iid",
+  "head_rounds": 8,
+  "fine_rounds": 12,
+  "batch_size": 32,
+  "seed": 42,
+  "starting_weights_sha256": "7110088ec3b249a82d4470324e012c85474e361ef2550363b8c9e6ea3fd3aa08",
+  "starting_weights_source": "ImageNet backbone plus new seeded head",
+  "assigned_images_per_client": {
+    "client_1": 1089,
+    "client_2": 1088,
+    "client_3": 1088,
+    "client_4": 1086
+  }
+}
