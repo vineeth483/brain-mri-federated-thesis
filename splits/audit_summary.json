@@ -1,0 +1,87 @@
+{
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "dataset_sha256": "98329d5c0b4322cd45e47456d56e6e0645595b1d22e5aba0847367fc3eb77a62",
+  "total_images": 7200,
+  "source_counts": {
+    "Training": {
+      "glioma": 1400,
+      "meningioma": 1400,
+      "notumor": 1400,
+      "pituitary": 1400
+    },
+    "Test": {
+      "glioma": 400,
+      "meningioma": 400,
+      "notumor": 400,
+      "pituitary": 400
+    }
+  },
+  "assigned_counts": {
+    "train": {
+      "glioma": 1120,
+      "meningioma": 1120,
+      "notumor": 1120,
+      "pituitary": 1120
+    },
+    "validation": {
+      "glioma": 280,
+      "meningioma": 280,
+      "notumor": 280,
+      "pituitary": 280
+    },
+    "test": {
+      "glioma": 400,
+      "meningioma": 400,
+      "notumor": 400,
+      "pituitary": 400
+    }
+  },
+  "unique_content_counts": {
+    "train": {
+      "glioma": 1120,
+      "meningioma": 1107,
+      "notumor": 1031,
+      "pituitary": 1093
+    },
+    "validation": {
+      "glioma": 280,
+      "meningioma": 279,
+      "notumor": 250,
+      "pituitary": 269
+    },
+    "test": {
+      "glioma": 386,
+      "meningioma": 398,
+      "notumor": 400,
+      "pituitary": 400
+    }
+  },
+  "excluded_exact_copies": {
+    "train": 129,
+    "validation": 42,
+    "test": 16
+  },
+  "duplicate_stats": {
+    "Training": {
+      "duplicate_groups": 138,
+      "redundant_copies": 171,
+      "unique_images": 5429
+    },
+    "Test": {
+      "duplicate_groups": 15,
+      "redundant_copies": 16,
+      "unique_images": 1584
+    }
+  },
+  "cross_source_duplicate_groups": [],
+  "conflicting_label_groups": [],
+  "cross_assigned_split_duplicate_groups": [],
+  "ignored_non_image_files": [],
+  "image_dimensions": {
+    "min_width": 150,
+    "max_width": 1375,
+    "min_height": 167,
+    "max_height": 1446
+  }
+}
