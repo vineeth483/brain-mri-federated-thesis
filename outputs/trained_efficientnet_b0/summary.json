@@ -1,0 +1,24 @@
+{
+  "architecture": "EfficientNetB0 with ImageNet weights, trained on data/Training",
+  "validation_split": 0.2,
+  "seed": 42,
+  "candidates": [
+    {
+      "phase": "head_best.keras",
+      "checkpoint": "outputs/trained_efficientnet_b0/head_best.keras",
+      "validation_loss": 0.3057132065296173,
+      "validation_accuracy": 0.8964285850524902
+    },
+    {
+      "phase": "fine_tune_best.keras",
+      "checkpoint": "outputs/trained_efficientnet_b0/fine_tune_best.keras",
+      "validation_loss": 0.2894507944583893,
+      "validation_accuracy": 0.9035714268684387
+    }
+  ],
+  "selected_checkpoint": "outputs/trained_efficientnet_b0/fine_tune_best.keras",
+  "selected_validation_loss": 0.2894507944583893,
+  "selected_validation_accuracy": 0.9035714268684387,
+  "final_model": "outputs/trained_efficientnet_b0/final.keras",
+  "test_data_used": false
+}
