@@ -1,0 +1,18 @@
+{
+  "scenario": "iid",
+  "round": 19,
+  "phase": "fine_tune",
+  "client_id": "client_4",
+  "images_trained": 1086,
+  "class_counts": {
+    "glioma": 280,
+    "meningioma": 276,
+    "notumor": 257,
+    "pituitary": 273
+  },
+  "starting_weights_sha256": "f2e0927e4e7dcc82ca179cedc19d158ceccb67ee8f7d63bebe359653c2379785",
+  "updated_weights_sha256": "9360537a02a915aae6d7147cec25c6e24bbff34d33361bb8cbf3bc4a74a4497b",
+  "gpu_visible": true,
+  "training_loss": 0.26790156960487366,
+  "training_accuracy": 0.9060773253440857
+}
